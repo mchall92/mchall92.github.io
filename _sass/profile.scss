@@ -3,7 +3,7 @@
     text-align: center;
     min-height: 470px;
     padding: 70px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     h1 {
         font-size: 50px;
         font-weight: 700;
@@ -26,12 +26,16 @@
     }
 
     .about {
-        color: white;
+        font-size: 35px;
+        margin-top: 30px;
+        color: a5cee6;
     }
 
     .about-countent {
-        color: white;
+        color: fff6e9;
         font-size: 20px;
         width: 80%;
+        text-align: center;
+        line-height: 200%;
     }
 }
