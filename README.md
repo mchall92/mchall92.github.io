@@ -7,7 +7,7 @@ This is a Jekyll website template designed for Pre Fellowship Fellows. During th
 
 ## Make your own!
 
-1. Use the Template button.
+1. Use the Template button
 2. Update `_config.yml` to contain your information.
     1. Change `url` to the URL you'll be hosting it at
     2. Make sure it has the /
