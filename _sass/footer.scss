@@ -1,0 +1,18 @@
+footer {
+    background-color: #3b3b3b;
+    padding: 40px 80px;
+  }
+  
+  .social-links li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    a {
+      color: black;
+      display: flex;
+      justify-content: center;
+      font-size: 1.5rem;
+      min-width: 40px;
+      height: 40px;
+    }
+  }
