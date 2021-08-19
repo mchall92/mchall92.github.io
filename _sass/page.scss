@@ -136,20 +136,35 @@ hr {
     }
 }
 
-.footer {
-    background-color: #3b3b3b;
-    padding: 40px 80px;
-    .social-links li{
-        list-style: none;
-        display: inline-block;
-        margin-left: 20px;
+.footer-dark {
+    padding:50px 0;
+    color:#f0f9ff;
+    background-color:#3b3b3b;
+    .item.social {
+        text-align:center;
         a {
-            color: black;
-            display: flex;
-            justify-content: center;
-            font-size: 1.5rem;
-            min-width: 40px;
-            height: 40px;
+            font-size:20px;
+            width:36px;
+            height:36px;
+            line-height:36px;
+            display:inline-block;
+            text-align:center;
+            border-radius:50%;
+            box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+            margin:0 8px;
+            color:#fff;
+            opacity:0.75;
         }
     }
+}
+  
+@media (max-width:991px) {
+    .footer-dark .item.social {
+    text-align:center;
+    margin-top:20px;
+    }
+}
+  
+.footer-dark .item.social a:hover {
+    opacity:0.9;
 }
