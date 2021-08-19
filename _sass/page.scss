@@ -143,17 +143,17 @@ hr {
     .item.social {
         text-align:center;
         a {
-            font-size:20px;
-            width:36px;
-            height:36px;
-            line-height:36px;
+            font-size:35px;
+            width:45px;
+            height:45px;
+            line-height:45px;
             display:inline-block;
             text-align:center;
-            border-radius:50%;
-            box-shadow:0 0 0 1px rgba(255,255,255,0.4);
-            margin:0 8px;
+            border-radius:35%;
+            box-shadow:0 0 0 1px rgba(255,255,255,0.7);
+            margin:0 12px;
             color:#fff;
-            opacity:0.75;
+            opacity:0.7;
         }
     }
 }
@@ -166,5 +166,5 @@ hr {
 }
   
 .footer-dark .item.social a:hover {
-    opacity:0.9;
+    opacity:1.0;
 }

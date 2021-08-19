@@ -23,16 +23,20 @@ html {
     color: white !important;
   }
   
-  .navbar-collapse {
-      text-align: right;
-      font-size: 15px;
-      letter-spacing: 3px; 
-      color: white !important;
-      li a{
-        color: white;
-        margin-left:17px;
-      }
-      .navbar-nav {
-        margin-left: auto !important;
+.navbar-collapse {
+  text-align: right;
+  font-size: 15px;
+  letter-spacing: 3px; 
+  color: rgba(255,255,255,1.0) !important;
+    li a {
+      color: white;
+      margin-left:17px;
     }
-  }
+    .navbar-nav {
+      margin-left: auto !important;
+    }
+}
+
+.collapse.navbar-collapse a:hover {
+  color: rgba(255,255,255,1.0);
+}
