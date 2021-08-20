@@ -42,7 +42,7 @@
     }
 }
 
-@media (max-width: 630px) {
+@media (max-width: 770px) {
     .profile {
         h1 {
             font-size: 3.0rem;
@@ -60,6 +60,30 @@
             color: #fff6e9;
             font-size: 1.7rem;
             width: 90%;
+            line-height: 210%;
+            display: inline-block;
+        }
+    }    
+  }
+
+  @media (max-width: 430px) {
+    .profile {
+        h1 {
+            font-size: 2.3rem;
+            font-weight: 700;
+        }
+
+        #about{
+            font-size: 1.9rem;
+            padding-top: 80px;
+            margin-top: -60px;
+            color: #a5cee6;
+        }
+    
+        .about-countent p {
+            color: #fff6e9;
+            font-size: 1.5rem;
+            width: 100%;
             line-height: 210%;
             display: inline-block;
         }
