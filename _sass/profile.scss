@@ -5,7 +5,7 @@
     padding: 80px;
     margin-bottom: 50px;
     h1 {
-        font-size: 50px;
+        font-size: 5.0rem;
         font-weight: 700;
         padding-bottom: 30px;
         color: white;
@@ -27,7 +27,7 @@
     }
 
     #about{
-        font-size: large;
+        font-size: 3.0rem;
         padding-top: 80px;
         margin-top: -60px;
         color: #a5cee6;
@@ -35,9 +35,33 @@
 
     .about-countent p {
         color: #fff6e9;
-        font-size: 20px;
+        font-size: 2.0rem;
         width: 80%;
         line-height: 200%;
         display: inline-block;
     }
 }
+
+@media (max-width: 630px) {
+    .profile {
+        h1 {
+            font-size: 3.0rem;
+            font-weight: 700;
+        }
+
+        #about{
+            font-size: 2.3rem;
+            padding-top: 80px;
+            margin-top: -60px;
+            color: #a5cee6;
+        }
+    
+        .about-countent p {
+            color: #fff6e9;
+            font-size: 1.7rem;
+            width: 90%;
+            line-height: 210%;
+            display: inline-block;
+        }
+    }    
+  }
